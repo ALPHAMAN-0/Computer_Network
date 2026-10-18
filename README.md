@@ -2,6 +2,18 @@
 
 A learning repository for **computer networking** fundamentals, from basic concepts to advanced topics, with a goal of covering the subject over a 60-day study plan.
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[Computer Network]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ---
 
 ## Contents
