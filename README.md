@@ -5,12 +5,8 @@ A learning repository for **computer networking** fundamentals, from basic conce
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[Computer Network]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+    README_Content[README Content]
 ```
 
 
